@@ -1,0 +1,53 @@
+body{
+    background-color: #d5e0e2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(FH5-HotWheels_Expansion-01-16x9_WM-d9655eadb581a77c6d3a.jpg);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(100, 148, 167);
+            
+}
+legend{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(110, 136, 161);
+}
+input[type=text], input[type=number]  {
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(247, 245, 241);
+    text-align: center;
+}
+label{
+    font-size: large;
+}
+button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(255, 183, 76);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+button :hover{
+    background-color: beige;
+    border-radius: 8px 10px 8px 10px;
+    color: black ;
+    transition: 1s;
+
+}
+
+#contenedor {
+    background: #f0f0f0;
+    margin: 1em auto;
+    padding: 1em;
+    width: 768px;
+    
+  }
